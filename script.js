@@ -29,7 +29,7 @@ for (let i = 0; i < columns; i++) drops[i] = Math.random() * 50 - 50;
 
 const draw = () => {
   // Set font style
-  ctx.font = font_size + "px 'Consolas', 'Lucida Console'";
+  ctx.font = font_size + "px 'Fira Code', 'monospace'";
 
   // Set fill style to be just semi-transparent black
   ctx.fillStyle = "rgba(0, 0, 0, 0.025)";
