@@ -8,7 +8,8 @@ const font_size = 20;
 
 canvas.height = window.innerHeight;
 canvas.width = window.innerWidth;
-columns = canvas.width / font_size;
+
+let columns = canvas.width / font_size;
 
 context.translate(canvas.width, 0);
 context.scale(-1, 1);
