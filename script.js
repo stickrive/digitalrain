@@ -43,11 +43,16 @@ const draw = () => {
   }
 
   // Generate new characters and display them, in white.
-  ctx.fillStyle = "#FFF";
   for (let i = 0; i < drops.length; i++) {
     drops[i]++;
     // Random character to print.
     text[i] = chars[Math.floor(Math.random() * chars.length)];
+
+    ctx.fillStyle = "#000";
+    // stamp a small semi-transparent square on space new character will go
+    ctx.fillRect(i * font_size, drops[i] * font_size, font_size, font_size);
+
+    ctx.fillStyle = "#FFF";
     // Parameters - text, x-pos, y-pos.
     ctx.fillText(text[i], i * font_size, drops[i] * font_size);
 
