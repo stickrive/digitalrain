@@ -69,3 +69,8 @@ const digitalrain = () => {
 };
 
 digitalrain();
+
+window.addEventListener("resize", () => {
+  window.clearInterval(drawInterv);
+  digitalrain();
+});
