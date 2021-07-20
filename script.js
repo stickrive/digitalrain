@@ -1,8 +1,8 @@
-var canvas = document.getElementById("canvas"),
-  context = canvas.getContext("2d"),
-  drops = [],
-  text = [],
-  font_size = 20;
+const canvas = document.getElementById("canvas");
+const context = canvas.getContext("2d");
+const drops = [];
+const text = [];
+const font_size = 20;
 
 canvas.height = window.innerHeight;
 canvas.width = window.innerWidth;
