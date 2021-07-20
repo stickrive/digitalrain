@@ -32,7 +32,7 @@ const draw = () => {
   ctx.font = font_size + "px 'Fira Code', 'monospace'";
 
   // Set fill style to be just semi-transparent black
-  ctx.fillStyle = "rgba(0, 0, 0, 0.025)";
+  ctx.fillStyle = "rgba(0, 0, 0, 0.050)";
   // Stamp the entire canvas with the semi-transparent layer
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
