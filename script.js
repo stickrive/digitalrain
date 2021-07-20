@@ -28,9 +28,12 @@ const chars =
 for (let i = 0; i < columns; i++) drops[i] = Math.random() * 50 - 50;
 
 const draw = () => {
-  // Black background with 0.25 opacity to show the trail.
+  // Set font style
   ctx.font = font_size + "px 'Consolas', 'Lucida Console'";
+
+  // Set fill style to be just semi-transparent black
   ctx.fillStyle = "rgba(0, 0, 0, 0.025)";
+  // Stamp the entire canvas with the semi-transparent layer
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   //Set the previous line to green so that the trail would remain green.
