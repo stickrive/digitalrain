@@ -4,6 +4,8 @@
   box-sizing: border-box;
   outline: none;
   background-color: #000;
+  font-family: "Fira Code", monospace;
+  font-weight: normal;
 }
 body {
   overflow: hidden;
