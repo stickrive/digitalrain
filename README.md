@@ -19,6 +19,9 @@
 <br />Commit - faf441b09090a7de8dd3ac6ca48020c6cb9fa66c
 <br />Fix - Printing a small semi-transparent black square right on the space the new character gets printed, keeping everything looking fresh</p>
 
+<h4>Before / After (so far)</h4>
+<img src="./digitalrain-before-after">
+
 <sub>Original readme below:</sub>
 
 <hr />
