@@ -1,5 +1,7 @@
 "use strict";
 
+let drawInterv;
+
 const digitalrain = () => {
   const canvas = document.getElementById("canvas");
   const ctx = canvas.getContext("2d");
@@ -63,7 +65,7 @@ const digitalrain = () => {
     }
   };
 
-  const drawInterv = setInterval(draw, 75);
+  drawInterv = setInterval(draw, 75);
 };
 
 digitalrain();
