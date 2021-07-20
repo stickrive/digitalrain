@@ -9,11 +9,15 @@
 
 <p>My goals with this:</p>
 <ul>
-<li>Stop the gray trails that appear after a while</li>
+<li><strike>Stop the gray trails that appear after a while</strike></li>
 <li>Allow more columns to come down at once</li>
 <li>Allow variable speeds between columns</li>
 <li>Learn about canvas and how this effect works</li>
 </ul>
+
+<p>Stop gray trails:
+<br />Commit - faf441b09090a7de8dd3ac6ca48020c6cb9fa66c
+<br />Fix - Printing a small semi-transparent black square right on the space the new character gets printed, keeping everything looking fresh</p>
 
 <sub>Original readme below:</sub>
 
