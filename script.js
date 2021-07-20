@@ -28,6 +28,8 @@ const digitalrain = () => {
       ""
     );
 
+  // Set the initial Y position for every drop to be
+  // staggered off of the top of the page
   for (let i = 0; i < columns; i++) drops[i] = Math.random() * 50 - 50;
 
   const draw = () => {
