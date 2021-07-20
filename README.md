@@ -3,7 +3,7 @@
 <br />...which is a fork from this commit:
 <br /><a href="https://github.com/mavidser/matrix-digital-rain/commit/6e037f39bda5343ae749283fabb4a61361371e2d" target="_blank">https://github.com/mavidser/matrix-digital-rain/commit/6e037f39bda5343ae749283fabb4a61361371e2d</a>
 <br />...of this project:
-<br /><a href="https://mavidser.github.io/matrix-digital-rain" target="_blank">https://mavidser.github.io/matrix-digital-rain</a></p>
+<br /><a href="https://github.com/mavidser/matrix-digital-rain" target="_blank">https://mavidser.github.io/matrix-digital-rain</a></p>
 
 <hr />
 
@@ -17,7 +17,7 @@
 
 <p>Stop gray trails:
 <br />Commit - faf441b09090a7de8dd3ac6ca48020c6cb9fa66c
-<br />Fix - Printing a small semi-transparent black square right on the space the new character gets printed, keeping everything looking fresh</p>
+<br />Fix - Print a small semi-transparent black square on the space the new character will display, along with slightly darkening the canvas-wide layer that is applied every draw loop.</p>
 
 <h4>Before</h4>
 <img src="https://github.com/PaulB-H/digitalrain/blob/main/digitalrain-before.gif">
