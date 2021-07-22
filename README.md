@@ -19,6 +19,9 @@
 <br />Commit - faf441b09090a7de8dd3ac6ca48020c6cb9fa66c
 <br />Fix - Print a small semi-transparent black square on the space the new character will display, along with slightly darkening the canvas-wide layer that is applied every draw loop.</p>
 
+<p>Multiple streams / variable speeds:
+<br />Possible Solution: Currently the printing for all streams is handled by one timer / loop. If I created separate intervals that handled the printing and properties of each stream, then I could modify the properties of each one separately</p>
+
 <h4>Before</h4>
 <img src="https://github.com/PaulB-H/digitalrain/blob/main/digitalrain-before.gif">
 
